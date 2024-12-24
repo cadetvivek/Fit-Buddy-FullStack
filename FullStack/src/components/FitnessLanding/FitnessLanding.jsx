@@ -15,7 +15,7 @@ const FitnessLanding = () => {
       <div className="content-wrapper">
         <div className="header">
           <div className="brand-tag">
-            THE BEST FITNESS CLUB IN THE TOWN
+            THE BEST FITNESS CLUB IN THE TOWN HALL
           </div>
         </div>
 
