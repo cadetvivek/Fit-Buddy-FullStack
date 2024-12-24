@@ -17,13 +17,13 @@ const Home = () => {
     <div>
       <Navbar />
       <FitnessLanding />
+      <Search />
       <Buddy />
       <BmiCalculator />
       <Feedback />
       <Faq />
       <PricingPlans />
       <Map />
-      <Search />
       <Footer />
     </div>
   );
