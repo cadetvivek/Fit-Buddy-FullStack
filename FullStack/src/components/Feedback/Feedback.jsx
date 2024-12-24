@@ -62,9 +62,9 @@ const Feedback = () => {
 
   return (
     <div className="feedback-container">
-      <h1 className="feedback-title">articles about fitness🧻</h1>
+      <h1 style={{color:"black"}}>Application reviews 🧾</h1>
       <div className="trustpilot-badge">
-        <span>See our reviews on</span>
+        <span style={{color:"black"}}>5 Start Rating</span>
         <img
           src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"
           alt="Trustpilot"

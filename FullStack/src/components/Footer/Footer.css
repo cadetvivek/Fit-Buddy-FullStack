@@ -8,6 +8,7 @@ body {
   border: 2px solid;
   height: 300px;
   display: flex;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
 }
 .Left {
   background-color: black;
@@ -22,6 +23,7 @@ body {
   display: flex;
   width: 55%;
   height: 300px;
+  flex-wrap: wrap; /* Adjust content wrapping on smaller screens */
 }
 
 #logo {
@@ -119,4 +121,49 @@ body {
 
 span {
   color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack elements vertically */
+    height: auto; /* Adjust height for stacked layout */
+  }
+  .Left, .right {
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Adjust height for content */
+  }
+  #logo {
+    height: 60px; /* Adjust size for smaller devices */
+    width: 30%;
+  }
+  #content, #social {
+    width: 100%; /* Use full width */
+  }
+  .iconStyle {
+    width: 40px;
+    height: 40px; /* Adjust icon size */
+  }
+  .contactStyle {
+    width: 15px;
+    height: 15px; /* Adjust contact icon size */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .iconStyle {
+    width: 30px;
+    height: 30px; /* Further reduce icon size for very small screens */
+  }
+  .contactStyle {
+    width: 10px;
+    height: 10px; /* Smaller contact icons */
+  }
+  #logo {
+    height: 50px;
+    width: 40%; /* Adjust logo size */
+  }
+  #links {
+    align-items: flex-start; /* Adjust alignment */
+  }
 }

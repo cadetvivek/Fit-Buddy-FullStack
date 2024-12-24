@@ -17,7 +17,7 @@ const PricingPlans = () => {
         'Access To Advanced Workout Programs',
         'Body Composition Analysis'
       ],
-      price: 99,
+      price: 8000,
       color: 'orange'
     },
     {
@@ -32,7 +32,7 @@ const PricingPlans = () => {
         'Access To All Platform Features',
         'Exclusive Gear Discounts'
       ],
-      price: 149,
+      price: 12000,
       color: 'red',
       featured: true
     },
@@ -48,7 +48,7 @@ const PricingPlans = () => {
         'Access To Group Fitness Classes',
         'Expore Black Hole Challenges'
       ],
-      price: 49,
+      price: 4000,
       color: 'orange'
     }
   ];
@@ -91,8 +91,8 @@ const PricingPlans = () => {
               </div>
 
               <div className="plan-price">
-                <span className="price-amount">${plan.price}</span>
-                <span className="price-period">/USDT</span>
+                <span className="price-amount">₹{plan.price}</span>
+                <span className="price-period">/INR</span>
               </div>
 
               <button

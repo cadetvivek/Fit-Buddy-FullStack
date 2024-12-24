@@ -110,6 +110,7 @@
 .trustpilot-logo {
   height: 24px;
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .feedback-container {

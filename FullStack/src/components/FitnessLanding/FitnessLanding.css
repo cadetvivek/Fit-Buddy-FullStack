@@ -1,9 +1,9 @@
 /* FitnessLanding.css */
 .fitness-container {
   background: linear-gradient(to right, #1f1f1f 65%, #f4631a 35%);
-  height: 800px;
+  min-height: 100vh;
   color: white;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .content-wrapper {
@@ -31,7 +31,7 @@
 }
 
 .left-section {
-  margin-right: 10px;
+  flex: 1;
 }
 
 .title {
@@ -42,7 +42,7 @@
 }
 
 .outline-text {
-  -webkit-text-stroke: 2px white;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
   color: transparent;
 }
 
@@ -68,7 +68,7 @@
 .stat-number {
   font-size: 2rem;
   font-weight: bold;
-  color: #ff0000;
+  color: lawngreen;
 }
 
 .stat-label {
@@ -83,7 +83,7 @@
 
 .image-container {
   position: relative;
-  width: 1200px;
+  width: 100%;
 }
 
 .main-image {
@@ -102,7 +102,7 @@
 }
 
 .heart-rate, .calories {
-  background: rgba(31, 31, 31, 0.8);
+  background: rgba(95, 93, 93, 0.8);
   padding: 1rem;
   border-radius: 10px;
   display: flex;
@@ -138,7 +138,7 @@
 
 .bar {
   width: 8px;
-  background: #ff0000;;
+  background: greenyellow;
   border-radius: 4px;
 }
 
