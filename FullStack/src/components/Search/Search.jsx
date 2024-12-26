@@ -78,11 +78,13 @@ const Search = () => {
       <div>
       <header>
         <div className="logo">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png"
-            alt="Google Logo"
+          {/* <img
+            src="http://localhost:5173/src/assets/images/logo.png"
+            alt="FitnessBuddy Logo"
             height="80vh"
-          />
+          /> */}
+                    <h3>Search here about Fitness</h3>
+
         </div>
         <form className="searchBar" onSubmit={handleSearch}>
           <input
