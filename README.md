@@ -98,3 +98,11 @@ Node.js
 Express.js
 MongoDB
 Other libraries/modules
+
+
+how can we clone
+copy this url = https://github.com/cadetvivek/Fit-Buddy-FullStack.git
+1. git clone = https://github.com/cadetvivek/Fit-Buddy-FullStack.git
+2. git npm i
+3. git cd FullStack
+4. npm run dev
