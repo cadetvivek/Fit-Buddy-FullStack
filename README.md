@@ -25,7 +25,10 @@ Example: A weightlifting enthusiast in the same city is matched with another use
 4. Weekly Progress Reports
 Automatically generates summaries at the end of each week.
 Highlights:
-Completed workouts.
+Completed workouts.![Screenshot (1510)](https://github.com/user-attachments/assets/d6787a7f-c472-4ac5-8159-7ee618105991)
+![Screenshot (1509)](https://github.com/user-attachments/assets/45698646-1fa3-4d96-9da5-75fd4b129f82)
+![Screenshot (1508)](https://github.com/user-attachments/assets/64d9ae46-e97f-4e09-961b-123d60146201)
+
 Calories burned.
 Progress toward fitness goals.
 Keeps users motivated and focused.
